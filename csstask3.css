@@ -1,0 +1,27 @@
+body{
+    font-family: poppins;
+}
+table{
+    border: 1px solid;
+    width: 60vw;
+    height: 60vh;
+    border-collapse: collapse;
+    text-align: left;
+}
+.trgreen{
+    background-color: #04a96d;
+    color: white;
+}
+
+.trgrey{
+    background-color: #e8e9eb;
+}
+h1{
+    text-align: center;
+}
+.tableDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vw;
+}

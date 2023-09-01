@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TASK 4</title>
+</head>
+<link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+<style>
+    body{
+        font-family: Poppins;
+    }
+    h1{
+        text-align: center;
+    }
+    .mainDiv{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 97dvh;
+        font-size: 20px;
+    }
+    .centered-form {
+        width: 400px;
+        padding: 30px;
+        border: 1px solid #ccc;
+        background-color: #f7f7f7;
+    }
+</style>
+<body>
+    <div class="mainDiv">
+        <h1>TASK 4</h1>
+    <div class="centered-form">
+        
+    <form>
+        <label for="fname">Full Name: </label>
+        <input name="fname" id="fname" placeholder="Vincent Maverick Durano" type="text"></input>
+        <br><br>
+        <label for="uname">Username: </label>
+        <input name="uname" id="uname" placeholder="Vinz" type="text"/>
+        <br><br>
+        <label for="pass">Password: </label>
+        <input id="pass" name="pass" type="password"/>
+        <br><br>
+        <label for="repass">Re-enter Password: </label>
+        <input id="repass" name="repass" type="password">
+        <br><br>
+        <label for="address">Address: </label>
+        <input name="address" id="address" type="text" placeholder="Cebu, Philippines"/>    
+        <br><br>
+        <label for="age">Age: </label>
+        <input name="age" id="age" type="number" placeholder="22"/>
+        <br><br>
+        <label for="gender">Gender: </label>
+        <select name="gender" id="gender">
+            <option id="male" name="male" value="male" selected>Male</option>
+            <option id="female" name="female" value="female" >Female</option>
+        </select>
+        <br><br>
+        <input type="submit" value="Save">
+    </form>
+    </div>
+    </div>
+</body>
+</html>
