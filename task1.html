@@ -10,44 +10,75 @@
     body{
         font-family: Poppins;
     }
-    .table,th,td{
-        border: 1px solid;
-        margin-left: auto;
-        margin-right: auto;
-        height: 2rem;
-        width: 15rem;
-    }
-    .task{
+    h1{
         text-align: center;
+    }
+    .up{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    }
+    table,th,td{
+        width: 50vw;
+    }
+    tr{
+        background-color: #96d4d3;
+    }
+    .fn{
+        width: 70vw;
+    }
+    .ln{
+        width: 70vw;
     }
 </style>
 <body>
     <a href="./index.html">
-        <h1>Index Page</h1>
+        <h2>Index Page</h2>
     </a>
-    <h1 class="task">Task 1</h1>
-    <table class="table">
-        <tbody>
+    <h1>TASK 1</h1>
+    <div class="up">
+        <table>
             <tr>
-                <th colspan="2">HTML task</th>
+                <th class="fn">Firstname</th>
+                <th class="ln">Lastname</th>
+                <th class="age">Age</th>
             </tr>
             <tr>
-                <th> Task Number</th>
-                <th> Link</th>
+                <td>Jill</td>
+                <td>Smith</td>
+                <td>50</td>
             </tr>
             <tr>
-                <td>Task1</td>
-                <td><a href="./Task1.html">Link1</a></td>
+                <td>Eve</td>
+                <td>Jackson</td>
+                <td>94</td>
             </tr>
             <tr>
-                <td>Task2</td>
-                <td><a href="./Task2.html">Link2</a></td>
+                <td>John</td>
+                <td>Doe</td>
+                <td>80</td>
             </tr>
-            <tr>
-                <td>Task3</td>
-                <td><a href="./Task3.html">Link3</a></td>
-            </tr>                
-        </tbody>
-    </table>
+        </table>
+    </div>
+    <div class="down">
+        <div class="down-center">
+            <div class="down1">
+                <div class="down11"></div>
+                <div class="down12"></div>
+                <div class="down13"></div>
+            </div>
+            <div class="down2">
+                <div class="down21"></div>
+                <div class="down22"></div>
+                <div class="down23"></div>
+            </div>
+            <div class="down3">
+                <div class="down31"></div>
+                <div class="down32"></div>
+                <div class="down33"></div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
