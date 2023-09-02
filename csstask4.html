@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Task 4</title>
+    <link rel="stylesheet" type="text/css" href="csstask4.css">
+</head>
+<link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+<style>
+    /* Button styling */
+    .instagram-button {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #405DE6;
+        color: #fff;
+        text-decoration: none;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+    /* Hover effect to change background color */
+    .instagram-button:hover {
+        background-color: #3f51b5;
+    }
+</style>
+
+<body>
+    <a class="instagram-button" onmouseover="redirectToInstagram()">Visit Instagram</a>
+
+    <script>
+        function redirectToInstagram() {
+            window.location.href = "https://www.instagram.com/";
+        }
+    </script>
+</body>
+</html>

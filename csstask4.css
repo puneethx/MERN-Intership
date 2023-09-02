@@ -1,0 +1,56 @@
+/* Button styling */
+.my-button1 {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.my-button2 {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.my-button3 {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.my-button4 {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+/* Text styling */
+.my-text {
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+/* Hover effect to change text */
+.my-button1:hover + .my-text::before {
+    content: "Hovered! ";
+    color: rgb(205, 139, 139);
+}
+.my-button2:hover + .my-text::before {
+    content: "Hovered! ";
+    color: red;
+}
+.my-button3:hover + .my-text2::before {
+    content: "Hovered! ";
+    color: red;
+}
+.my-button4:hover + .my-text::after {
+    content: "Hovered! ";
+    color: black;
+}

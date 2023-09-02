@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+        }
+
+        .left-container {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .button {
+            padding: 10px;
+            margin: 5px;
+            border: none;
+            cursor: pointer;
+            text-align: center;
+            width: 80px;
+            transition: background-color 0.3s;
+            color: #fff;
+        }
+
+        .green-button { background-color: green; }
+        .skyblue-button { background-color: skyblue; }
+        .red-button { background-color: red; }
+        .grey-button { background-color: grey; }
+
+        .right-container {
+            text-align: center;
+        }
+
+        p {
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="left-container">
+        <button class="button green-button" onmouseover="changeTextOnOver('Green Hovered !')" onmouseout="changeTextOnOut()">Green</button>
+        <button class="button skyblue-button" onmouseover="changeTextOnOver('Skyblue')" onmouseout="changeTextOnOut()">Skyblue</button>
+        <button class="button red-button" onmouseover="changeTextOnOver('Red')" onmouseout="changeTextOnOut()">Red</button>
+        <button class="button grey-button" onmouseover="changeTextOnOver('Grey')" onmouseout="changeTextOnOut()">Grey</button>
+    </div>
+    <div class="right-container">
+        <h1>Hoverable Sidenav Buttons</h1>
+        <p>Hover over the buttons in the left side navigation to open them.</p>
+        <p id="paragraphText"></p>
+    </div>
+
+    <script>
+        function changeTextOnOver(text) {
+            document.getElementById('paragraphText').textContent = text;
+        }
+        function changeTextOnOut() {
+            document.getElementById('paragraphText').textContent = "Nothing is Hovered !";
+        }
+    </script>
+</body>
+</html>

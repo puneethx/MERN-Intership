@@ -1,0 +1,87 @@
+body{
+    font-family: poppins;
+}
+h1{
+    text-align: center;
+}
+
+.mainDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0vw 24vw 0 25vw;
+}
+
+.titles{
+    display: flex;
+    justify-content: space-between;
+    margin: 0vw 32vw 0vw 25vw;
+}
+.verNavbar {
+    width: 200px;
+    background-color: #add9e6;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.verDiv{
+    border: 1px solid;
+    width: 220px;
+    height: 230px;
+}
+
+.verNavbar a{
+    display: block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration-line: none;
+}
+
+#verhere{
+    background-color: #fea500;
+    color: white;
+}
+
+.verNavbar a:hover{
+    background-color: #fea500;
+}
+
+.aclass{
+    color: #000;
+}
+
+.horNavbar{
+    display: flex;
+    background-color: #d3d3d3;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.horDiv{
+    border: 1px solid;
+    width: 454px;
+    height: 9vh;
+}
+.horNavbar a{
+    display: block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration-line: none;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.horNavbar a:hover{
+    background-color: #808080;
+}
+
+#boot{
+    color: #d3d3d3;
+    text-decoration: none;
+    border-right: none;
+}
+#horhere{
+    border-left: none;
+    background-color: #808080;
+}
+
+
