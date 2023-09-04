@@ -3,66 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            display: flex;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            padding: 0;
-        }
-
-        .left-container {
-            display: flex;
-            flex-direction: column;
-        }
-
-        .button {
-            padding: 10px;
-            margin: 5px;
-            border: none;
-            cursor: pointer;
-            text-align: center;
-            width: 80px;
-            transition: background-color 0.3s;
-            color: #fff;
-        }
-
-        .green-button { background-color: green; }
-        .skyblue-button { background-color: skyblue; }
-        .red-button { background-color: red; }
-        .grey-button { background-color: grey; }
-
-        .right-container {
-            text-align: center;
-        }
-
-        p {
-            font-size: 16px;
-        }
-    </style>
+    <title>CSS Task 5</title>
+    <link rel="stylesheet" type="text/css" href="csstask5.css">
 </head>
+<link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
 <body>
-    <div class="left-container">
-        <button class="button green-button" onmouseover="changeTextOnOver('Green Hovered !')" onmouseout="changeTextOnOut()">Green</button>
-        <button class="button skyblue-button" onmouseover="changeTextOnOver('Skyblue')" onmouseout="changeTextOnOut()">Skyblue</button>
-        <button class="button red-button" onmouseover="changeTextOnOver('Red')" onmouseout="changeTextOnOut()">Red</button>
-        <button class="button grey-button" onmouseover="changeTextOnOver('Grey')" onmouseout="changeTextOnOut()">Grey</button>
-    </div>
-    <div class="right-container">
-        <h1>Hoverable Sidenav Buttons</h1>
-        <p>Hover over the buttons in the left side navigation to open them.</p>
-        <p id="paragraphText"></p>
-    </div>
+    <div class="mainDiv">
+        <div class="leftdiv">
+            <a href="./index.html"><h2>Index Page</h2></a>
+            <a href="#home" class="lefta"><div class="divl">Home</div></a>
+            <a href="#musings" class="lefta"><div class="divl">Musings</div></a>
+            <a href="#mytown" class="lefta"><div class="divl">My Town</div></a>
+            <a href="#links" class="lefta"><div class="divl">Links</div></a>
+        </div>
+        <div class="rightdiv">
+            <h1>TASK 5</h1>
+            <h1>My first styled page</h1>
+            <p id="firstp">welcome to my styled page!</p>
+            <p>It lacks images,but at least it has style. And it has links, even if they don't go anywhere</p>
+            <p>There should be more here, but I don't know what yet.</p>
+            <p>--------------------------------------------------------------------------------------------------</p>
 
-    <script>
-        function changeTextOnOver(text) {
-            document.getElementById('paragraphText').textContent = text;
-        }
-        function changeTextOnOut() {
-            document.getElementById('paragraphText').textContent = "Nothing is Hovered !";
-        }
-    </script>
+            <p id="curse">Made 5 April 2004 <br> by myself</p>
+        </div>
+    </div>
 </body>
 </html>

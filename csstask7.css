@@ -1,0 +1,75 @@
+body{
+    font-family: poppins;
+    background-color: #a22b55;
+    color: white;
+}
+*{box-sizing: border-box;
+}
+input[type=text], input[type=email], input[type=number], input[type=date],input[type=select],input[type=password], input[type=tel]
+{
+    width: 20vw;
+    padding: 12px;
+    border: none;
+    resize: vertical;
+}
+#language{
+    width: 20vw;
+    padding: 12px;
+    border: none;
+}
+textarea{
+    width:20vw;
+    padding: 12px;
+    resize: vertical;
+    border: none;
+}
+input[type=radio]{
+    width: 2vw;
+    border: none;
+    margin-top: 2vh;
+    resize: vertical;
+}
+h1{
+    text-align: center;
+}
+label{
+    padding: 12px;
+    display: inline-block;
+}
+input[type=submit] {
+    background-color: #ffffff;
+    color: #75203f;
+    padding: 1.5vh 12vw;
+    border: none;
+    cursor: pointer;
+    float:left;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 2vh;
+    border-radius: 5px;
+}
+.container{
+    background-color:#75203f;
+    padding: 5vh 5vw;
+    margin:2vh 25vw 2vh 25vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.col1{
+    float: left;
+    width: 10vw;
+    margin-top: 1vh;
+}
+
+.col2{
+    float: left;
+    margin-top: 1vh;
+}
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}

@@ -1,56 +1,49 @@
-/* Button styling */
-.my-button1 {
-    background-color: #3498db;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-.my-button2 {
-    background-color: #3498db;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-.my-button3 {
-    background-color: #3498db;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-.my-button4 {
-    background-color: #3498db;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-/* Text styling */
-.my-text {
-    font-size: 16px;
-    margin-top: 20px;
+body{
+    font-family: poppins;
 }
 
-/* Hover effect to change text */
-.my-button1:hover + .my-text::before {
-    content: "Hovered! ";
-    color: rgb(205, 139, 139);
+h1{
+    padding-left: 10vw;
 }
-.my-button2:hover + .my-text::before {
-    content: "Hovered! ";
-    color: red;
+p{
+    padding-left: 10vw;
 }
-.my-button3:hover + .my-text2::before {
-    content: "Hovered! ";
-    color: red;
+
+
+#mySidenav a {
+    margin-top: 10vh;
+    position: absolute;
+    left: -80px;
+    transition: 0.3s;
+    padding:25px 15px;
+    width: 100px;
+    text-decoration: none; 
+    font-size: 16px; 
+    color: white;
+    border-radius: 0 5px 5px 0;
 }
-.my-button4:hover + .my-text::after {
-    content: "Hovered! ";
-    color: black;
+
+#mySidenav a:hover {
+    left: 0;
+}
+
+
+#green {
+  top: 20px;
+  background-color: #04AA6D;
+}
+
+#blue {
+  top: 80px;
+  background-color: #2196F3; 
+}
+
+#red {
+  top: 140px;
+  background-color: #f44336; 
+}
+
+#grey {
+  top: 200px;
+  background-color: #555555;
 }

@@ -1,0 +1,54 @@
+body{
+    font-family: poppins;
+    margin: 0;
+    padding: 0;
+}
+
+.mainDiv{
+    display: flex;
+    justify-content: center;
+}
+.leftdiv {
+    background-color: #d9da3e;
+    flex: 1;
+    height: 100dvh;
+}
+
+.leftdiv a{
+    display: block;
+    padding-right: 10px;
+    margin-left: 2vw;
+    margin-right: 6.5vw;
+    margin-top: 2vw;
+    font-size: 20px;
+    text-decoration-line: none;
+}
+.rightdiv{
+    flex: 4;
+    background-color: #d9da3e;
+    color: #800277;
+}
+
+h1{
+    text-align: center;
+}
+#firstp{
+    margin-top: 10vh;
+    padding-left: 100px;
+    font-size: 20px;
+}
+p{
+    padding-bottom: 2vh;
+    padding-left: 100px;
+    font-size: 20px;
+}
+.divl{
+    background-color: white;
+    width: 160px;
+}
+.lefta{
+    background-color: black;
+}
+#curse{
+    font-style: italic;
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+        <title>CSS Task 7</title>
+        <link rel="stylesheet" href="./csstask7.css">
+    </head>
+<link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <body>
+        <a href="index.html">
+            <h2>Index Page</h2>
+        </a>
+        <h1>Task 7</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col1">
+                    <label for="name">Name:</label>
+                </div>
+                <div class="col2">
+                    <input type="text" id="fname" name="firstname" placeholder="your name">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col1">
+                    <label for="email">Email:</label>
+                </div>
+                <div class="col2">
+                    <input type="email" id="email" name="email" placeholder="your email">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col1">
+                    <label for="password">Password:</label>
+                </div>
+                <div class="col2">
+                    <input type="password" id="password" name="password">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col1">
+                    <label for="phone">Phone:</label>
+                </div>
+                <div class="col2">
+                    <input type="tel" id="phone" name="phone">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col1">
+                    <label for="gender">Gender:</label>
+                </div>
+                <div class="col2">
+                    Male:<input type="radio" id="male" name="gender" value="male"/>
+                    Female:<input type="radio" id="female" name="gender" value="female"/>
+                    Other:<input type="radio" id="other" name="gender" value="other"/>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col1">
+                    <label for="language" >Language:</label>
+                </div>
+                <div class="col2">
+                    <select name="language" id="language" >
+                        <option value=" ">Select Language:</option>
+                        <option value="Tamil">Tamil</option>
+                        <option value="Telugu">Telugu</option>
+                        <option value="Malayalam">Malayalam</option>
+                        <option value="Hindi">Hindi</option>
+                        <option value="Marathi">Marathi</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col1">
+                    <label for="pincode">Zip Code:</label>
+                </div>
+                <div class="col2">
+                    <input type="number" id="pin" name="pin" maxlength="6">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col1">
+                    <label for="about">About:</label>
+                </div>
+                <div class="col2">
+                    <textarea name="about" id="about" cols="20" rows="5" placeholder="write about yourself..."></textarea>
+                </div>
+            </div>
+            <div class="row">
+                <input type="submit" value="Register">
+            </div>  
+        </div>  
+    </body>
+</html>
