@@ -13,9 +13,11 @@ table{
     color: white;
 }
 
-.trgrey{
+tr:nth-child(even) {
     background-color: #e8e9eb;
 }
+
+
 h1{
     text-align: center;
 }
@@ -24,4 +26,7 @@ h1{
     justify-content: center;
     align-items: center;
     margin-top: 5vw;
+}
+td{
+    padding-left: 18px;
 }
