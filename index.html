@@ -15,7 +15,7 @@
         text-align: center;
         width: 20rem;
     }
-    h1{
+    h1,h2{
         text-align: center;
     }
     body{
@@ -25,86 +25,190 @@
         display: flex;
         justify-content: space-between;
         margin:0 25vw;
-        padding-top: 7vw;
+        flex-direction: column;
+    }
+    .center2{
+        justify-content: space-between;
+        margin: 10vh 30vw;
+        display: flex;
+    }
+    .jsdiv{
+        margin-left: 2vw;
+    }
+    .bsdiv{
+        margin-left: -2vw;
+    }
+    .assignment{
+        display: flex;
     }
 </style>
 <body>
     <h1>Index Page</h1>
     <div class="centerdiv">
-        <div class="htmldiv">
-        <table class="table">
-            <tbody>
-                <tr>
-                    <th colspan="2">HTML task</th>
-                </tr>
-                <tr>
-                    <th>Task Number</th>
-                    <th>Link</th>
-                </tr>
-                <tr>
-                    <td>Task 1</td>
-                    <td><a href="./HTMLTask/task1.html">Link1</a></td>
-                </tr>
-                <tr>
-                    <td>Task 2</td>
-                    <td><a href="./HTMLTask/task2.html">Link2</a></td>
-                </tr>
-                <tr>
-                    <td>Task 3</td>
-                    <td><a href="./HTMLTask/task3.html">Link3</a></td>
-                </tr>
-                <tr>
-                    <td>Task 4</td>
-                    <td><a href="./HTMLTask/task4.html">Link4</a></td>
-                </tr> 
-                <tr>
-                    <td>Task 5</td>
-                    <td><a href="./HTMLTask/task5.html">Link5</a></td>
-                </tr>                 
-            </tbody>
-        </table>
+        <h2>Assignment 1</h2>
+        <div class="assignment">
+            <table class="table">
+                <tbody>
+                    <tr>
+                        <th colspan="2">HTML task</th>
+                    </tr>
+                    <tr>
+                        <th>Task Number</th>
+                        <th>Link</th>
+                    </tr>
+                    <tr>
+                        <td>Task 1</td>
+                        <td><a href="./HTMLTask/task1.html">Link1</a></td>
+                    </tr>
+                    <tr>
+                        <td>Task 2</td>
+                        <td><a href="./HTMLTask/task2.html">Link2</a></td>
+                    </tr>
+                    <tr>
+                        <td>Task 3</td>
+                        <td><a href="./HTMLTask/task3.html">Link3</a></td>
+                    </tr>
+                    <tr>
+                        <td>Task 4</td>
+                        <td><a href="./HTMLTask/task4.html">Link4</a></td>
+                    </tr> 
+                    <tr>
+                        <td>Task 5</td>
+                        <td><a href="./HTMLTask/task5.html">Link5</a></td>
+                    </tr>                 
+                </tbody>
+            </table>
+        
+            <div class="cssdiv">
+                <table class="table">
+                    <tbody>
+                        <tr>
+                            <th colspan="2">CSS task</th>
+                        </tr>
+                        <tr>
+                            <th> Task Number</th>
+                            <th> Link</th>
+                        </tr>
+                        <tr>
+                            <td>Task 1</td>
+                            <td><a href="./CSSTask/csstask1.html">Link1</a></td>
+                        </tr>
+                        <tr>
+                            <td>Task 2</td>
+                            <td><a href="./CSSTask/csstask2.html">Link2</a></td>
+                        </tr>
+                        <tr>
+                            <td>Task 3</td>
+                            <td><a href="./CSSTask/csstask3.html">Link3</a></td>
+                        </tr>
+                        <tr>
+                            <td>Task 4</td>
+                            <td><a href="./CSSTask/csstask4.html">Link4</a></td>
+                        </tr> 
+                        <tr>
+                            <td>Task 5</td>
+                            <td><a href="./CSSTask/csstask5.html">Link5</a></td>
+                        </tr>
+                        <tr>
+                            <td>Task 6</td>
+                            <td><a href="./CSSTask/csstask6.html">Link6</a></td>
+                        </tr>
+                        <tr>
+                            <td>Task 7</td>
+                            <td><a href="./CSSTask/csstask7.html">Link7</a></td>
+                        </tr>                  
+                    </tbody>
+                </table>
+            </div>
+        </div>
     </div>
-    <div class="cssdiv">
-        <table class="table">
-            <tbody>
-                <tr>
-                    <th colspan="2">CSS task</th>
-                </tr>
-                <tr>
-                    <th> Task Number</th>
-                    <th> Link</th>
-                </tr>
-                <tr>
-                    <td>Task 1</td>
-                    <td><a href="./CSSTask/csstask1.html">Link1</a></td>
-                </tr>
-                <tr>
-                    <td>Task 2</td>
-                    <td><a href="./CSSTask/csstask2.html">Link2</a></td>
-                </tr>
-                <tr>
-                    <td>Task 3</td>
-                    <td><a href="./CSSTask/csstask3.html">Link3</a></td>
-                </tr>
-                <tr>
-                    <td>Task 4</td>
-                    <td><a href="./CSSTask/csstask4.html">Link4</a></td>
-                </tr> 
-                <tr>
-                    <td>Task 5</td>
-                    <td><a href="./CSSTask/csstask5.html">Link5</a></td>
-                </tr>
-                <tr>
-                    <td>Task 6</td>
-                    <td><a href="./CSSTask/csstask6.html">Link6</a></td>
-                </tr>
-                <tr>
-                    <td>Task 7</td>
-                    <td><a href="./CSSTask/csstask7.html">Link7</a></td>
-                </tr>                  
-            </tbody>
-        </table>
-    </div>
+    <h2>Assignment 2</h2>
+    <div class="center2">
+        <div class="assignment">
+            <div class="bsdiv">
+                <table class="table">
+                    <tbody>
+                        <tr>
+                            <th colspan="2">Bs task</th>
+                        </tr>
+                        <tr>
+                            <th>Task Number</th>
+                            <th>Link</th>
+                        </tr>
+                        <tr>
+                            <td>Task 1</td>
+                            <td><a href="./Bs Task/Bs Task 1/index.html">Link1</a></td>
+                        </tr>
+                        <tr>
+                            <td>Task 2</td>
+                            <td><a href="./Bs Task/Bs Task 2/index.html">Link2</a></td>
+                        </tr>
+                        <tr>
+                            <td>Task 3</td>
+                            <td><a href="./Bs Task/Bs Task 3/index.html">Link3</a></td>
+                        </tr>
+                        <tr>
+                            <td>Task 4</td>
+                            <td><a href="./Bs Task/Bs Task 4/index.html">Link4</a></td>
+                        </tr> 
+                        <tr>
+                            <td>Task 5</td>
+                            <td><a href="./Bs Task/Bs Task 5/index.html">Link5</a></td>
+                        </tr>
+                        <tr>
+                            <td>Task 6</td>
+                            <td><a href="./Bs Task/Bs Task 6/index.html">Link6</a></td>
+                        </tr>                 
+                    </tbody>
+                </table>
+            </div>
+            <div class="jsdiv">
+                <table class="table">
+                    <tbody>
+                        <tr>
+                            <th colspan="2">Js task</th>
+                        </tr>
+                        <tr>
+                            <th> Task Number</th>
+                            <th> Link</th>
+                        </tr>
+                        <tr>
+                            <td>Task 1</td>
+                            <td><a href="./Js Task/Js Task1/index.html">Link1</a></td>
+                        </tr>
+                        <tr>
+                            <td>Task 2</td>
+                            <td><a href="./Js Task/Js Task2/index.html">Link2</a></td>
+                        </tr>
+                        <tr>
+                            <td>Task 3</td>
+                            <td><a href="./Js Task/Js Task3/index.html">Link3</a></td>
+                        </tr>
+                        <tr>
+                            <td>Task 4</td>
+                            <td><a href="./Js Task/Js Task4/index.html">Link4</a></td>
+                        </tr> 
+                        <tr>
+                            <td>Task 5</td>
+                            <td><a href="./Js Task/Js Task5/index.html">Link5</a></td>
+                        </tr>
+                        <tr>
+                            <td>Task 6</td>
+                            <td><a href="./Js Task/Js Task6/index.html">Link6</a></td>
+                        </tr>
+                        <tr>
+                            <td>Task 7</td>
+                            <td><a href="./Js Task/Js Task7/index.html">Link7</a></td>
+                        </tr>
+                        <tr>
+                            <td>Task 8</td>
+                            <td><a href="./Js Task/Js Task8/index.html">Link8</a></td>
+                        </tr>                  
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 </html>
