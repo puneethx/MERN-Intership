@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 24</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <style>
+        .error {
+            color: red;
+        }
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-left: 35%;
+            margin-right: 35%;
+        }
+        #username, #password, #login, .error {
+            width: 100%;
+            max-width: 300px;
+        }
+        .card {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            text-align: center;
+        }
+        .icon {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+            background-color: rgb(178, 178, 178);
+            border-radius: 5px;
+            border: 1px solid black;
+        }
+        .icon i {
+            margin-right: 10px;
+        }
+        button{
+            width: auto;
+            padding: 10px;
+            background-color: #1877F2;
+            color: white;
+            border-radius: 5px;
+            border: 2px solid white;
+        }
+        input{
+            padding: 10px;
+        }
+        i{
+            padding: 10px;
+        }
+        .rev a{
+            margin-left: 10px;
+        }
+        h5,.rev{
+            font-family: Arial;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>Instagram</h1>
+        <div class="icon">
+            <i class="fas fa-user"></i>
+            <input type="text" name="username" id="username" placeholder="Username or Email">
+        </div><br>
+        <div class="icon">
+            <i class="fas fa-lock"></i>
+            <input type="password" name="pass" id="password" placeholder="Password">
+        </div><br>
+        <button onclick="loginvalidation()" id="login">Login</button><br><br>
+        <div class="rev">
+            <input type="checkbox" name="remember me"> Remember me
+            <a href="/">Forgot password?</a><br><br>
+        </div>
+        <p id="errorText" class="error"></p><br>
+    </div><br>
+    <h5>Don't have an account! <a href="/">Sign up here</a></h5><br>
+    <script>
+        function loginvalidation() {
+            var usernameOrEmail = document.getElementById("username").value;
+            var password = document.getElementById("password").value;
+            var errorText = document.getElementById("errorText");
+            if (password.length < 6) {
+                errorText.textContent = "Incorrect username or password.";
+                return;
+            }
+            if (usernameOrEmail === "puneethx" && password === "jstask6") {
+                alert("Login successful!");
+                errorText.textcontent = "Login successful!"
+            } else {
+                errorText.textContent = "Incorrect username or password.";
+            }
+        }
+    </script>
+</body>
+</html>
